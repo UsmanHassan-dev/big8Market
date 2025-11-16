@@ -1,129 +1,89 @@
-#📦 Big8Market — Multi-Vendor B2B Marketplace (Showcase)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Big8Market Showcase</title>
+</head>
+<body>
 
-A scalable B2B e-commerce platform with vendor dashboards, admin management, real-time currency exchange, and IngramMicro integration.
+<h1>📦 Big8Market — Multi-Vendor B2B Marketplace (Showcase)</h1>
+<p>A scalable B2B e-commerce platform with multi-vendor support, admin management, live currency exchange, and IngramMicro integration.</p>
 
-🚀 Overview
+<h2>🚀 Overview</h2>
+<p><strong>Big8Market</strong> is a full-scale <strong>multi-vendor B2B marketplace</strong> designed to connect suppliers and businesses under one platform.</p>
+<p>I joined the project in its mid-development phase and played a major role in completing it, including:</p>
+<ul>
+    <li>Implementing APIs</li>
+    <li>Designing the remaining database structure</li>
+    <li>Building the vendor dashboard</li>
+    <li>Completing the admin panel</li>
+    <li>Integrating third-party APIs</li>
+    <li>Finalizing marketplace logic & workflows</li>
+</ul>
 
-Big8Market is a full-scale multi-vendor B2B marketplace designed to connect suppliers and businesses under a single platform.
-It supports global transactions, vendor-specific operations, product listings, order management, and admin-level control.
+<h2>👨‍💻 My Role — Full Stack Developer</h2>
+<p>Worked across the <strong>entire project lifecycle</strong>, focusing on backend engineering, API development, and system architecture.</p>
 
-I joined this project in its mid-development phase and played a major role in completing the system end-to-end, including:
+<h2>🔥 Key Contributions</h2>
+<ul>
+    <li>Designed database structure for products, vendors, orders, and currency modules</li>
+    <li>Developed REST APIs for all marketplace features</li>
+    <li>Built a fully functional Admin Panel (vendor management, product approvals, commissions, orders)</li>
+    <li>Built the Vendor Dashboard (products, orders, analytics, profile management)</li>
+    <li>Implemented real-time currency exchange logic</li>
+    <li>Integrated IngramMicro API for product sync and pricing</li>
+    <li>Optimized backend performance and improved code maintainability</li>
+</ul>
 
-Implementing APIs
+<h2>🧩 Core Features</h2>
 
-Designing the remaining database structure
+<h3>🛒 Multi-Vendor Marketplace</h3>
+<ul>
+    <li>Vendor onboarding & authentication</li>
+    <li>Product listing & catalog</li>
+    <li>Order lifecycle: <em>Created → Paid → Processing → Delivered</em></li>
+    <li>Vendor earnings & payouts</li>
+</ul>
 
-Building the vendor dashboard
+<h3>🏢 Admin Portal</h3>
+<ul>
+    <li>Vendor approval workflow</li>
+    <li>Product moderation</li>
+    <li>Order control & platform commissions</li>
+    <li>Global system settings</li>
+    <li>Currency & exchange management</li>
+</ul>
 
-Completing the admin panel
+<h3>💱 Live Currency Exchange</h3>
+<ul>
+    <li>Real-time exchange rates</li>
+    <li>Dynamic product pricing</li>
+    <li>Integration with third-party exchange APIs</li>
+</ul>
 
-Integrating third-party APIs
+<h3>🔗 IngramMicro Integration</h3>
+<ul>
+    <li>Automated product sync</li>
+    <li>Real-time stock & pricing updates</li>
+    <li>Error handling & retry logic</li>
+</ul>
 
-Finalizing marketplace logic & flows
+<h3>📈 Business-Oriented Design</h3>
+<ul>
+    <li>Modular multi-role architecture</li>
+    <li>Clean REST API design</li>
+    <li>Secure vendor isolation</li>
+    <li>Performance-optimized queries</li>
+</ul>
 
-👨‍💻 My Role
+<h2>🛠 Tech Stack</h2>
+<p><strong>Backend:</strong> Laravel (PHP 8+), RESTful APIs, Laravel Guards, Role/Permission-based access</p>
+<p><strong>Frontend:</strong> HTML, CSS, Bootstrap, jQuery (where needed)</p>
+<p><strong>Database:</strong> MySQL, optimized relationships, constraints & indexing</p>
+<p><strong>Integrations:</strong> IngramMicro API, Currency Conversion API</p>
 
-Full Stack Developer (Laravel + MySQL + Bootstrap)
-
-I worked across the full lifecycle of the project, focusing on backend engineering and system architecture.
-
-🔥 Key Contributions
-
-Designed & implemented database structure for product, vendor, order, and currency modules.
-
-Developed REST APIs for the marketplace features.
-
-Built a complete Admin Panel (vendor management, product approvals, commissions, orders).
-
-Developed the Vendor Dashboard (products, orders, reports, profile management).
-
-Implemented currency exchange logic with real-time updates.
-
-Integrated IngramMicro API to sync product details, pricing, and availability.
-
-Optimized backend performance, improved code quality, and pushed the project to completion.
-
-🧩 Core Features
-🛒 Multi-Vendor Marketplace
-
-Vendor registration & onboarding
-
-Product listing & catalog management
-
-Order lifecycle: Created → Paid → Processing → Delivered
-
-Vendor earnings & payout information
-
-🏢 Admin Portal
-
-Vendor approvals
-
-Global settings management
-
-Product moderation
-
-Order control & platform commissions
-
-Currency settings & API management
-
-💱 Live Currency Exchange
-
-Real-time currency conversion
-
-Integration with third-party conversion APIs
-
-Dynamic product pricing based on exchange rate
-
-🔗 IngramMicro Integration
-
-Automated product sync
-
-Real-time availability & pricing updates
-
-Error handling & retry logic
-
-📈 Business-Focused System
-
-Scalable multi-role architecture
-
-Performance-optimized backend
-
-Secure authentication & vendor isolation
-
-Clear operational workflows for B2B environments
-
-🛠 Tech Stack
-Backend
-
-Laravel (PHP 8+)
-
-RESTful API Architecture
-
-Authentication with Laravel guards
-
-Role & permission-based access
-
-Frontend
-
-Pure HTML
-
-CSS & Bootstrap
-
-jQuery (where needed)
-
-Database
-
-MySQL
-
-Optimized using indexing, relationships, and constraints
-
-3rd Party Integrations
-
-IngramMicro API (product listing, price sync)
-
-Currency Conversion API
-
-🏗 Architecture Overview
+<h2>🏗 Architecture Overview</h2>
+<pre>
 +----------------------------+
 |        Admin Panel         |
 |  (Manage Vendors, Orders)  |
@@ -142,24 +102,27 @@ Currency Conversion API
                |
                |
 +--------------v-------------+
-|     Vendor Dashboard        |
-|  (Products, Orders, Stats) |
+|      Vendor Dashboard      |
+| (Products, Orders, Stats)  |
 +----------------------------+
+</pre>
 
-🎯 Impact & Results
+<h2>🎯 Impact & Results</h2>
+<ul>
+    <li>Transformed a half-built codebase into a fully functional marketplace</li>
+    <li>Delivered a scalable vendor platform for B2B operations</li>
+    <li>Implemented critical modules (vendors, admin, orders, currencies)</li>
+    <li>Ensured long-term maintainability with clean architecture</li>
+</ul>
 
-Successfully transformed a half-built codebase into a fully working marketplace.
+<p>Recruiters reviewing this will immediately understand:</p>
+<ul>
+    <li>✔ Ability to own backend + frontend + database</li>
+    <li>✔ Experience with large-scale, real-world platforms</li>
+    <li>✔ Strong understanding of APIs, integrations & architecture</li>
+    <li>✔ Ability to rescue mid-stage or poorly structured projects</li>
+    <li>✔ Can work independently and deliver end-to-end solutions</li>
+</ul>
 
-Delivered a scalable vendor platform used for B2B transactions.
-
-Implemented critical modules (vendors, admin, orders, currencies) that enabled launch.
-
-Provided long-term maintainability through clean architecture & modular design.
-
-A recruiter viewing this will instantly understand:
-
-✔ You work independently
-✔ You deliver large-scale, real-world platforms
-✔ You understand system design, API development & integrations
-✔ You can own backend + frontend + database
-✔ You can rescue mid-stage or poorly structured projects and complete them
+</body>
+</html>
