@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Big8Market Showcase</title>
-</head>
-<body>
-
 <h1>📦 Big8Market — Multi-Vendor B2B Marketplace (Showcase)</h1>
 <p>A scalable B2B e-commerce platform with multi-vendor support, admin management, live currency exchange, and IngramMicro integration.</p>
 
@@ -123,6 +115,3 @@
     <li>✔ Ability to rescue mid-stage or poorly structured projects</li>
     <li>✔ Can work independently and deliver end-to-end solutions</li>
 </ul>
-
-</body>
-</html>
