@@ -1,6 +1,8 @@
 <h1>📦 Big8Market — Multi-Vendor B2B Marketplace (Showcase)</h1>
 <p>A scalable B2B e-commerce platform with multi-vendor support, admin management, live currency exchange, and IngramMicro integration.</p>
 
+🌐 **Live Project:** [Visit Big8Market](https://big8market.com/)
+
 <h2>🚀 Overview</h2>
 <p><strong>Big8Market</strong> is a full-scale <strong>multi-vendor B2B marketplace</strong> designed to connect suppliers and businesses under one platform.</p>
 <p>I joined the project in its mid-development phase and played a major role in completing it, including:</p>
