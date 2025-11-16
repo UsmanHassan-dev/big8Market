@@ -109,11 +109,3 @@
     <li>Ensured long-term maintainability with clean architecture</li>
 </ul>
 
-<p>Recruiters reviewing this will immediately understand:</p>
-<ul>
-    <li>✔ Ability to own backend + frontend + database</li>
-    <li>✔ Experience with large-scale, real-world platforms</li>
-    <li>✔ Strong understanding of APIs, integrations & architecture</li>
-    <li>✔ Ability to rescue mid-stage or poorly structured projects</li>
-    <li>✔ Can work independently and deliver end-to-end solutions</li>
-</ul>
